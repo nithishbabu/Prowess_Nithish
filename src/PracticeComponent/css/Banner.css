@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.content-ctn{
+     margin-left: auto;
+    /* margin-top:40px; */
+    width:100vw;
+    height:70vh;
+}
+
+
+.table-heading{
+    color: rgb(201, 33, 47);
+}
+th{
+    width: 50%;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+    /* margin-left: 200px; */
+    
+  }
+  
+  td, th {
+    border: 1px solid #1dbf69;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #64a751;
+  }
